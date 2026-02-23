@@ -24,7 +24,7 @@
     #align(center + horizon)[
       // The box keeps the text from hitting the spine or the outer cut line
       #box(width: 80%)[
-        A collection of short stories and other kinds of writings.
+        This is a collection of short stories and other kinds of writings.
 
         #v(1em)
         A lot of this was aided, and literally written by Claude and Gemini.

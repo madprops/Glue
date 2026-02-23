@@ -40,7 +40,7 @@
 // Story Template
 #let render_story(story_title, image_path, text_file, is_last: false) = {
   // Bookmark
-  place(hide(heading(level: 1)[#story_title]))
+  bookmark(story_title)
 
   // Title
   align(center)[

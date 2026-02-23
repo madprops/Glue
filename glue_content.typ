@@ -10,10 +10,14 @@
 #set text(font: "Literata", size: 12pt)
 #let breakable(s) = s.codepoints().join(sym.zws)
 
+#let bookmark(text) = {
+  place(hide(heading(level: 1)[#text]))
+}
+
 // Story Template
 #let render_story(story_title, image_path, text_file, is_last: false) = {
   // Bookmark
-  place(hide(heading(level: 1)[#story_title]))
+  bookmark(story_title)
 
   // Title
   align(center)[

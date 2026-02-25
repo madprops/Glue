@@ -7,7 +7,7 @@
   numbering: "1",
 )
 
-#set text(font: "Literata", size: 12pt)
+#set text(font: "Literata", size: 11pt)
 #let breakable(s) = s.codepoints().join(sym.zws)
 
 #let bookmark(text) = {
@@ -31,7 +31,7 @@
     #stack(
       dir: ttb, // Stack items from top to bottom
       spacing: 18pt, // This is your absolute, controllable gap
-      text(size: 28pt, weight: "bold")[#story_title],
+      text(size: 26pt, weight: "bold")[#story_title],
       image(image_path, width: 100%),
     )
   ]

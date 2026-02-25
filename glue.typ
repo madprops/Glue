@@ -40,6 +40,9 @@
 
   #v(1em)
   Written between 2025 and 2026 in Costa Rica.
+
+  #v(1em)
+  Version 1.0
 ]
 
 #pagebreak()

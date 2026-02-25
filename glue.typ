@@ -7,6 +7,13 @@
   place(hide(heading(level: 1)[#text]))
 }
 
+#show regex("(?m)^---$"): it => block(
+  width: 100%,
+  above: 1.2em,
+  below: 0em,
+  line(length: 100%)
+)
+
 #bookmark("Cover")
 
 // Cover
@@ -73,6 +80,7 @@
 #render_story("San Lorenzo", "img/san_lorenzo.jpg", "txt/san_lorenzo.txt")
 #render_story("The Shift", "img/the_shift.jpg", "txt/the_shift.txt")
 #render_story("The Purple Prison", "img/the_purple_prison.jpg", "txt/the_purple_prison.txt")
+#render_story("The Calibration Chamber", "img/the_calibration_chamber.jpg", "txt/the_calibration_chamber.txt")
 #render_story("Metaballs", "img/metaballs.jpg", "txt/metaballs.txt")
 #render_story("Donny Slomile", "img/donny_slomile.jpg", "txt/donny_slomile.txt")
 #render_story("Noda", "img/noda.jpg", "txt/noda.txt")

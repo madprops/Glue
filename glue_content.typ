@@ -14,6 +14,13 @@
   place(hide(heading(level: 1)[#text]))
 }
 
+#show regex("(?m)^---$"): it => block(
+  width: 100%,
+  above: 1.2em,
+  below: 0em,
+  line(length: 100%)
+)
+
 // Story Template
 #let render_story(story_title, image_path, text_file, is_last: false) = {
   // Bookmark

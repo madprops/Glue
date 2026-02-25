@@ -42,7 +42,7 @@
   Written between 2025 and 2026 in Costa Rica.
 
   #v(1em)
-  Version 3.0
+  Version 3.1
 ]
 
 #pagebreak()
@@ -90,4 +90,4 @@
 #render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt")
 #render_story("The Boundary Of Noise", "img/the_boundary_of_noise.jpg", "txt/the_boundary_of_noise.txt")
 #render_story("El Perro De Taco Bell", "img/el_perro_de_taco_bell.jpg", "txt/el_perro_de_taco_bell.txt")
-#render_story("Austerios Polyp", "img/austerios_polyp.jpg", "txt/austerios_polyp.txt", is_last:true)
+#render_story("Austerios Polip", "img/austerios_polip.jpg", "txt/austerios_polip.txt", is_last:true)

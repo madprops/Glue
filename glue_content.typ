@@ -62,4 +62,6 @@
 #render_story("Donny Slomile", "img/donny_slomile.jpg", "txt/donny_slomile.txt")
 #render_story("Noda", "img/noda.jpg", "txt/noda.txt")
 #render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt")
-#render_story("The Boundary Of Noise", "img/the_boundary_of_noise.jpg", "txt/the_boundary_of_noise.txt", is_last:true)
+#render_story("The Boundary Of Noise", "img/the_boundary_of_noise.jpg", "txt/the_boundary_of_noise.txt")
+#render_story("El Perro De Taco Bell", "img/el_perro_de_taco_bell.jpg", "txt/el_perro_de_taco_bell.txt")
+#render_story("Austerios Polyp", "img/austerios_polyp.jpg", "txt/austerios_polyp.txt", is_last:true)

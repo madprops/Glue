@@ -36,7 +36,7 @@
     )
   ]
 
-  pagebreak()
+  v(12pt)
 
   // \S means "any non-whitespace character"
   // {30,} means "30 or more times in a row"
@@ -61,4 +61,5 @@
 #render_story("Metaballs", "img/metaballs.jpg", "txt/metaballs.txt")
 #render_story("Donny Slomile", "img/donny_slomile.jpg", "txt/donny_slomile.txt")
 #render_story("Noda", "img/noda.jpg", "txt/noda.txt")
-#render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt", is_last:true)
+#render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt")
+#render_story("The Boundary Of Noise", "img/the_boundary_of_noise.jpg", "txt/the_boundary_of_noise.txt", is_last:true)

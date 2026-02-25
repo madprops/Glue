@@ -33,7 +33,7 @@
 // Introduction
 #align(center + horizon)[
   #v(1em)
-  This is a collection of short stories and other kinds of writings.
+  Collection of short stories and other kinds of writings.
 
   #v(1em)
   A lot of this was aided, and literally written by Claude and Gemini.
@@ -42,7 +42,7 @@
   Written between 2025 and 2026 in Costa Rica.
 
   #v(1em)
-  Version 1.0
+  Version 2.0
 ]
 
 #pagebreak()
@@ -62,7 +62,7 @@
     )
   ]
 
-  pagebreak()
+  v(12pt)
 
   // \S means "any non-whitespace character"
   // {30,} means "30 or more times in a row"
@@ -87,4 +87,5 @@
 #render_story("Metaballs", "img/metaballs.jpg", "txt/metaballs.txt")
 #render_story("Donny Slomile", "img/donny_slomile.jpg", "txt/donny_slomile.txt")
 #render_story("Noda", "img/noda.jpg", "txt/noda.txt")
-#render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt", is_last:true)
+#render_story("La Vía Más Corta", "img/la_via_mas_corta.jpg", "txt/la_via_mas_corta.txt")
+#render_story("The Boundary Of Noise", "img/the_boundary_of_noise.jpg", "txt/the_boundary_of_noise.txt", is_last:true)
